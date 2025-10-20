@@ -2,7 +2,7 @@
 This repo is the implementation of "ViTaL: A Multimodality Dataset and Benchmark for Multi-pathological Ovarian Tumor Recognition".
 
 This repository is built on top of mmpretrain (a powerful open-source toolbox for image classification and retrieval). To fully utilize the functionalities provided in this repo, you are required to master the basic usage of mmpretrain first. Below is the essential guide for installation and model training.
-1. Prerequisite: Install mmpretrain from Source
+# 1. Prerequisite: Install mmpretrain from Source
 Since this project relies on the latest features of mmpretrain, we strongly recommend installing mmpretrain from its official source code instead of using pip. Follow these steps:
 Step 1: Install PyTorch and TorchVision
 First, ensure you have PyTorch and TorchVision installed. Refer to the official PyTorch website for commands compatible with your OS and CUDA version. For example (CUDA 11.8):
@@ -31,7 +31,7 @@ Run the following command to confirm mmpretrain is installed successfully:
 ```bash
 python -c "from mmpretrain import __version__; print(__version__)"
 ```
-2. Train Models for Different Modalities
+# 2. Train Models for Different Modalities
 After installing mmpretrain and setting up this repository, use the following commands to start training for different recognition tasks. All training configurations are stored in the ./configs/ directory.
 
 2.1 Image Single-Modal Recognition
