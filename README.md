@@ -38,15 +38,11 @@ To train the model for image-only single-modal recognition, run:
 ```bash
 python tools/train.py ./configs/moblie_6.py
 ```
-2.2 Image-Table Dual-Modal Recognition
-To train the model for image-table dual-modal recognition (fusing image and table data), run:
-```bash
-python tools/train.py ./configs/moblie_6_vt.py
-```
-2.3 Image-Table-Text Multi-Modal Recognition
+
+2.2 Image-Table-Text Multi-Modal Recognition
 To train the model for image-table-text multi-modal recognition (fusing image, table, and text data), run:
 ```bash
-python tools/train.py ./configs/moblie_6_vtt.py
+python tools/train.py ./configs/vtt_moblie_6.py
 ```
 
 Refer to the mmpretrain Official Documentation for more details on config file settings, training tricks, and model evaluation.
