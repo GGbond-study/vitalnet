@@ -33,6 +33,7 @@ python -c "from mmpretrain import __version__; print(__version__)"
 ```
 2. Train Models for Different Modalities
 After installing mmpretrain and setting up this repository, use the following commands to start training for different recognition tasks. All training configurations are stored in the ./configs/ directory.
+
 2.1 Image Single-Modal Recognition
 To train the model for image-only single-modal recognition, run:
 ```bash
